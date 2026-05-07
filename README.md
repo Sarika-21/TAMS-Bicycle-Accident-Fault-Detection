@@ -1,33 +1,161 @@
 # 🚴 TAMS Bicycle Accident Fault Detection
 
-Deep Learning based project for Bicycle Accident Fault Detection using Temporal Attention Multi-Sensor Vision Network (TAMS).
+> Deep Learning based intelligent system for predicting bicycle accident fault using a **Temporal Attention Multi-Sensor Vision Network (TAMS)**.
 
-## Features
-- Bicycle crash fault prediction
-- Deep learning model
-- High accuracy
-- Real-time inference
-- Visual dashboards
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-DeepLearning-red)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Technologies Used
-- Python
-- PyTorch
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+---
 
-## Project Files
-- Notebook (.ipynb)
-- Report (.pdf)
-- Model (.pth)
+## 📌 Project Overview
 
-## How to Run
+Road accidents involving bicycles often require manual investigation to determine fault responsibility. This project introduces an AI-powered framework that predicts accident fault using structured crash metadata and deep learning.
 
+The system uses a hybrid neural architecture combining:
+
+* Temporal CNN
+* Non-Stationary Attention
+* Parallel Neural Network
+
+to learn complex crash patterns and make accurate fault predictions.
+
+---
+
+## 🎯 Objectives
+
+* Automate bicycle accident fault detection
+* Improve road safety analytics
+* Reduce manual investigation effort
+* Build a deployable real-time AI model
+
+---
+
+## 🧠 Model Architecture
+
+TAMS combines multiple advanced deep learning modules:
+
+1. **Temporal CNN** – captures feature relationships
+2. **Attention Mechanism** – focuses on critical factors
+3. **Parallel Dense Layers** – improves classification learning
+4. **Final Binary Classifier** – predicts fault / no-fault
+
+---
+
+## 📊 Dataset
+
+Used the **CycleCrash Dataset**
+
+Features include:
+
+* Object involved
+* Cyclist direction
+* Time of collision
+* Right of way
+* Severity score
+* Vulnerability score
+* Age
+* Camera position
+
+---
+
+## ⚙️ Technologies Used
+
+* Python
+* PyTorch
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Plotly
+* OpenCV
+
+---
+
+## 📈 Performance
+
+| Metric   | Score  |
+| -------- | ------ |
+| Accuracy | 98.48% |
+| F1 Score | 98.48% |
+| MCC      | 96.87% |
+| AUC      | 99.50% |
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/Sarika-21/TAMS-Bicycle-Accident-Fault-Detection.git
+cd TAMS-Bicycle-Accident-Fault-Detection
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-Run notebook:
+### 3️⃣ Run Notebook
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```text
 TAMS_Bicycle_Accident_Fault_Detection.ipynb
+```
 
-## Author
-Sarika Kamala
+---
+
+## 📂 Project Structure
+
+```text
+TAMS-Bicycle-Accident-Fault-Detection/
+│── notebook.ipynb
+│── report.pdf
+│── requirements.txt
+│── README.md
+│── screenshots/
+│── model/
+```
+
+---
+
+## 📸 Screenshots
+
+Add your project result images here inside `/screenshots`
+
+Examples:
+
+* Confusion Matrix
+* Accuracy Graph
+* ROC Curve
+* Dashboard Output
+
+---
+
+## 🌍 Future Enhancements
+
+* Real-time CCTV integration
+* Video-based accident reasoning
+* Mobile deployment
+* Explainable AI dashboard
+* Multi-class fault analysis
+
+---
+
+## 👩‍💻 Author
+
+**Sarika Kamala**
+Computer Science Engineering Student
+
+GitHub: https://github.com/Sarika-21
+
+
+If you like this project, give it a ⭐ on GitHub!
