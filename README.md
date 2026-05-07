@@ -143,6 +143,3 @@ TAMS-Bicycle-Accident-Fault-Detection/
 Computer Science Engineering Student
 
 GitHub: https://github.com/Sarika-21
-
-
-If you like this project, give it a ⭐ on GitHub!
