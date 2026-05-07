@@ -127,19 +127,6 @@ TAMS-Bicycle-Accident-Fault-Detection/
 
 ---
 
-## 📸 Screenshots
-
-Add your project result images here inside `/screenshots`
-
-Examples:
-
-* Confusion Matrix
-* Accuracy Graph
-* ROC Curve
-* Dashboard Output
-
----
-
 ## 🌍 Future Enhancements
 
 * Real-time CCTV integration
