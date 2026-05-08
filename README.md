@@ -102,7 +102,7 @@ pip install -r requirements.txt
 ### 3️⃣ Run Notebook
 
 ```bash
-jupyter notebook
+Colab notebook
 ```
 
 Open:
@@ -117,12 +117,11 @@ TAMS_Bicycle_Accident_Fault_Detection.ipynb
 
 ```text
 TAMS-Bicycle-Accident-Fault-Detection/
-│── notebook.ipynb
-│── report.pdf
+│── TAMS-Bicycle-Accident-Fault-Detection.ipynb
+│── Final_project_report.pdf
 │── requirements.txt
 │── README.md
-│── screenshots/
-│── model/
+│── Outputs/
 ```
 ## 📊 Outputs and Results
 
