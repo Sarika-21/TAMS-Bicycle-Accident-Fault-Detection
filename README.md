@@ -124,7 +124,19 @@ TAMS-Bicycle-Accident-Fault-Detection/
 │── screenshots/
 │── model/
 ```
+## 📊 Outputs and Results
 
+### Confusion Matrix
+![Confusion Matrix](screenshots/confusion_matrix.png)
+
+### ROC Curve
+![ROC Curve](screenshots/roc_curve.png)
+
+### Accuracy Graph
+![Accuracy](screenshots/accuracy_graph.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 ---
 
 ## 🌍 Future Enhancements
