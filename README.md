@@ -136,7 +136,7 @@ TAMS-Bicycle-Accident-Fault-Detection/
 ![Accuracy](screenshots/accuracy_graph.png)
 
 ### Final output
-![Dashboard](screenshots/final_output.png)
+![Final output](screenshots/final_output.png)
 
 ---
 
